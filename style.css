@@ -39,3 +39,44 @@ h1, h2 {
 p {
     line-height: 1.6;
 }
+
+table {
+    border-collapse: collapse;
+    box-sizing: border-box;
+    border-color: #ffffff;
+    display: block;
+    margin: auto;
+}
+
+th, td {
+    margin: auto;
+    border: 1px solid #ffffff;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    text-align: center;
+}
+
+.mirrorvrabout{
+    text-align: center;
+    margin:auto;
+    width: 65%;
+}
+
+li {
+    margin: auto;
+    width: 50%;
+    text-align: left;
+    padding: 5px;
+}
+nav {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.projectslist{
+    padding: 0px;
+    width: 50%;
+    margin-left: -50px;
+}
