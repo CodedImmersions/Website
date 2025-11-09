@@ -92,3 +92,9 @@ nav {
     margin: auto;
     width: 200px;
 }
+
+#ci_banner {
+    width: 80%;
+    display: block;
+    margin: auto;
+}
