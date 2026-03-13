@@ -1,0 +1,206 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+font-family:Segoe UI, Arial, sans-serif;
+background:#0e0e11;
+color:#e4e4e4;
+line-height:1.6;
+}
+
+/* HEADER */
+
+header{
+background-image:url("/assets/logo.png");
+background-size:120px;
+background-repeat:no-repeat;
+background-position:center;
+height:150px;
+
+display:flex;
+align-items:center;
+justify-content:space-between;
+
+padding:0 40px;
+
+box-shadow:0 5px 20px rgba(0,0,0,0.5);
+
+background-color: black;
+}
+
+header h1{
+font-size:26px;
+}
+
+nav a{
+text-decoration:none;
+color:white;
+margin-left:25px;
+font-weight:500;
+transition:0.2s;
+}
+
+nav a:hover{
+color:#6ea8ff;
+}
+
+/* HERO */
+
+.hero{
+text-align:center;
+padding:100px 20px;
+border-bottom:1px solid #1f1f1f;
+}
+
+.hero h1{
+font-size:48px;
+margin-bottom:10px;
+}
+
+.hero p{
+color:#b0b0b0;
+font-size:18px;
+}
+
+/* SECTIONS */
+
+.content-section{
+
+max-width:1000px;
+margin:auto;
+
+padding:70px 20px;
+
+}
+
+.content-section h2{
+
+margin-bottom:20px;
+font-size:30px;
+
+}
+
+/* TABLE */
+
+.table-container{
+overflow-x:auto;
+}
+
+table{
+
+width:100%;
+border-collapse:collapse;
+
+background:#15151a;
+
+border-radius:10px;
+overflow:hidden;
+
+}
+
+th,td{
+
+padding:14px;
+border-bottom:1px solid #2b2b2f;
+text-align:left;
+
+}
+
+th{
+background:#1f1f26;
+}
+
+/* LISTS */
+
+.feature-list{
+
+list-style:none;
+margin-top:10px;
+
+}
+
+.feature-list li{
+
+padding:8px 0;
+border-bottom:1px solid #1f1f23;
+
+}
+
+/* DOWNLOAD */
+
+.download-section{
+
+text-align:center;
+
+padding:40px 20px;
+
+background:#141418;
+
+}
+
+.download-links{
+text-align:center;
+padding:40px 20px;
+border-top:1px solid #1f1f1f;
+}
+
+/* BUTTONS */
+
+.button{
+
+display:inline-block;
+margin: 20px;
+padding:12px 25px;
+
+background:#4c8dff;
+color:white;
+text-decoration:none;
+
+border-radius:8px;
+
+font-weight:600;
+transition:0.2s;
+
+}
+
+.button:hover{
+background:#6ea8ff;
+}
+
+
+/* FOOTER */
+
+footer{
+
+text-align:center;
+padding:30px;
+
+border-top:1px solid #222;
+
+color:#777;
+
+margin-top:40px;
+
+}
+
+/* MOBILE */
+
+@media (max-width:700px){
+
+.hero h1{
+font-size:36px;
+}
+
+.nav-container{
+flex-direction:column;
+gap:10px;
+}
+
+nav a{
+margin:0 10px;
+}
+
+}
