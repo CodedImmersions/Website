@@ -1,61 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>EOS Transport | Coded Immersions</title>
-<link rel="stylesheet" href="../eostransport.css">
-<link rel="icon" href="/assets/logo.png">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>EOS Transport | Coded Immersions</title>
 
-<body>
+        <link rel="stylesheet" href="../eostransport.css">
+        <link rel="icon" href="/assets/logo.png">
+    </head>
 
-<header>
-<h1>Coded Immersions</h1>
+    <body>
+        <header>
+            <h1>Coded Immersions</h1>
 
-<nav>
-<a href="/index.html">Home</a>
-<a href="/index.html#projects">Projects</a>
-<a href="/index.html#contact">Contact</a>
-</nav>
+            <nav>
+                <a href="/index.html">Home</a>
+                <a href="/index.html#projects">Projects</a>
+                <a href="/index.html#contact">Contact</a>
+            </nav>
+        </header>
 
-</header>
+        <section class="hero">
+            <h1>EOS Transport</h1>
+            <p>A seamless integration of Mirror Networking with Epic Online Services for peer-to-peer connectivity.</p>
+        </section>
 
-<section class="hero">
+        <section class="project-page">
+            <h2>What is EOSTransport?</h2>
+            <p>EOSTransport is a transport for <a href="https://github.com/MirrorNetworking/Mirror">Mirror Networking</a> using Epic Online Services to provide free P2P services.
+                This is a full revamp of <a href="https://github.com/WeLoveJesusChrist/EOSTransport">Katone's EOSTransport</a>, which they have unfortunately left the Mirror community.
+            </p>
 
-<h1>EOS Transport</h1>
-<p>A seamless integration of Mirror Networking with Epic Online Services for peer-to-peer connectivity.</p>
+            <h2>How does it work?</h2>
+            <p>EOSTransport is a bridge between Mirror and EOS. It uses the EOS C# SDK (NOT EOS Plugin for Unity!) to easily link both.
+                The Auth/Connect Interfaces are used to log in and authenticate the player. They are not able to play when not being authenticated, which stops quite a bit of hacking.
+                The Lobby Interface is used for player matchmaking, and the NAT P2P Interface is used to actually connect players and send data between each other.
+            </p>
+        </section>
 
-</section>
+        <section class="github">
+            <h2>GitHub Repository</h2>
 
-<section class="project-page">
-<h2>What is EOSTransport?</h2>
-<p>
-EOSTransport is a transport for <a href="https://github.com/MirrorNetworking/Mirror">Mirror Networking</a> using Epic Online Services to provide free P2P services.
-This is a full revamp of <a href="https://github.com/WeLoveJesusChrist/EOSTransport">Katone's EOSTransport</a>, which they have unfortunately left the Mirror community.
-</p>
+            <p>You can find the source code for EOSTransport on GitHub.</p>
+            <a class="button" href="https://github.com/CodedImmersions/EOSTransport">GitHub Repository</a>
+        </section>
 
-<h2>How does it work?</h2>
-<p>
-EOSTransport is a bridge between Mirror and EOS. It uses the EOS C# SDK (NOT EOS Plugin for Unity!) to easily link both.
+        <footer>
+            <p>© 2025-2026 Coded Immersions. All Rights Reserved.</p>
+        </footer>
 
-The Auth/Connect Interfaces are used to log in and authenticate the player. They are not able to play when not being authenticated, which stops quite a bit of hacking.
-
-The Lobby Interface is used for player matchmaking, and the NAT P2P Interface is used to actually connect players and send data between each other.
-</p>
-</section>
-
-<section class="github">
-<h2>GitHub Repository</h2>
-<p>You can find the source code for EOSTransport on GitHub.</p>
-<a class="button" href="https://github.com/CodedImmersions/EOSTransport">
-    GitHub Repository
-</a>
-</section>
-
-<footer>
-<p>© 2026 Coded Immersions</p>
-</footer>
-
-</body>
+    </body>
 </html>
